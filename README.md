@@ -21,7 +21,7 @@ make
 ```
 Usage:
 ```bash
-simpletron-lang_ file_name
+./simpletron-lang_ file_name
 ```
 
 I will add scripting support soon
