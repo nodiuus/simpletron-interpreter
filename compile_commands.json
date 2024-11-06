@@ -1,0 +1,117 @@
+[
+  {
+    "arguments": [
+      "/usr/bin/g++",
+      "-DDEBUG",
+      "-Iinclude/VM",
+      "-Iinclude/lexer",
+      "-Iinclude/parser",
+      "-Iinclude/code_generation",
+      "-g",
+      "-Wall",
+      "-Wextra",
+      "-pedantic",
+      "-fPIC",
+      "-std=c++23",
+      "-c",
+      "-o",
+      "obj/Debug/code_generation.o",
+      "src/code_generation/code_generation.cpp"
+    ],
+    "directory": "/home/nisan/Projects/C++/simpletron-lang",
+    "file": "/home/nisan/Projects/C++/simpletron-lang/src/code_generation/code_generation.cpp",
+    "output": "/home/nisan/Projects/C++/simpletron-lang/obj/Debug/code_generation.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/g++",
+      "-DDEBUG",
+      "-Iinclude/VM",
+      "-Iinclude/lexer",
+      "-Iinclude/parser",
+      "-Iinclude/code_generation",
+      "-g",
+      "-Wall",
+      "-Wextra",
+      "-pedantic",
+      "-fPIC",
+      "-std=c++23",
+      "-c",
+      "-o",
+      "obj/Debug/entry.o",
+      "src/entry.cpp"
+    ],
+    "directory": "/home/nisan/Projects/C++/simpletron-lang",
+    "file": "/home/nisan/Projects/C++/simpletron-lang/src/entry.cpp",
+    "output": "/home/nisan/Projects/C++/simpletron-lang/obj/Debug/entry.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/g++",
+      "-DDEBUG",
+      "-Iinclude/VM",
+      "-Iinclude/lexer",
+      "-Iinclude/parser",
+      "-Iinclude/code_generation",
+      "-g",
+      "-Wall",
+      "-Wextra",
+      "-pedantic",
+      "-fPIC",
+      "-std=c++23",
+      "-c",
+      "-o",
+      "obj/Debug/lexer.o",
+      "src/lexer/lexer.cpp"
+    ],
+    "directory": "/home/nisan/Projects/C++/simpletron-lang",
+    "file": "/home/nisan/Projects/C++/simpletron-lang/src/lexer/lexer.cpp",
+    "output": "/home/nisan/Projects/C++/simpletron-lang/obj/Debug/lexer.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/g++",
+      "-DDEBUG",
+      "-Iinclude/VM",
+      "-Iinclude/lexer",
+      "-Iinclude/parser",
+      "-Iinclude/code_generation",
+      "-g",
+      "-Wall",
+      "-Wextra",
+      "-pedantic",
+      "-fPIC",
+      "-std=c++23",
+      "-c",
+      "-o",
+      "obj/Debug/parser.o",
+      "src/parser/parser.cpp"
+    ],
+    "directory": "/home/nisan/Projects/C++/simpletron-lang",
+    "file": "/home/nisan/Projects/C++/simpletron-lang/src/parser/parser.cpp",
+    "output": "/home/nisan/Projects/C++/simpletron-lang/obj/Debug/parser.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/g++",
+      "-DDEBUG",
+      "-Iinclude/VM",
+      "-Iinclude/lexer",
+      "-Iinclude/parser",
+      "-Iinclude/code_generation",
+      "-g",
+      "-Wall",
+      "-Wextra",
+      "-pedantic",
+      "-fPIC",
+      "-std=c++23",
+      "-c",
+      "-o",
+      "obj/Debug/virtual_machine.o",
+      "src/VM/virtual_machine.cpp"
+    ],
+    "directory": "/home/nisan/Projects/C++/simpletron-lang",
+    "file": "/home/nisan/Projects/C++/simpletron-lang/src/VM/virtual_machine.cpp",
+    "output": "/home/nisan/Projects/C++/simpletron-lang/obj/Debug/virtual_machine.o"
+  }
+]
