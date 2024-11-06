@@ -1,5 +1,7 @@
 # simpletron-lang
-interpreted assembly language based off of the simpletron architecture/virtual machine
+Interpreted assembly language based off of the simpletron architecture.
+
+Read more: http://web.cs.wpi.edu/~jburge/courses/c01/cs2011/lectures/lecture5.pdf
 
 Example program for a sum calculator:
 ```sml
