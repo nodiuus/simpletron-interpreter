@@ -13,3 +13,15 @@ STORE 09;
 WRITE 09;
 HALT;
 ```
+To build:
+```bash
+premake5 clangd
+make clean
+make
+```
+Usage:
+```bash
+simpletron-lang_ file_name
+```
+
+I will add scripting support soon
