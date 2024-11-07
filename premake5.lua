@@ -64,8 +64,10 @@ newaction {
 }
 
 --this is where the real shit begins, kid
+--[[
 os.execute("mkdir src")
 if not os.isfile("./src/entry.cpp") then
     print("Creating entry.cpp")
     os.execute("cp -r ~/Projects/C++/entry.cpp src/")
 end
+]]--
